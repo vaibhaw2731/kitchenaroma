@@ -19,7 +19,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
+import {  Container, Row, Col } from "reactstrap";
 
 // core components
 
@@ -31,36 +31,22 @@ function SectionDownload() {
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">Do you like what you see?</h2>
-              <p className="description">
-                Cause if you do, it can be yours for Free. Hit the button below
-                and download it. Start a new project or give an old Bootstrap 4
-                project a new look.
-              </p>
-            </Col>
-            <Col className="ml-auto mr-auto download-area" md="5">
-              <Button
-                className="btn-round"
-                color="danger"
-                href="http://www.creative-tim.com/product/paper-kit-react?ref=pkr-index-page"
-                target="_blank"
-              >
-                Download free React
-              </Button>
             </Col>
           </Row>
           <Row className="text-center upgrade-pro">
             <Col className="ml-auto mr-auto" md="8">
-              <h2 className="title">Want more?</h2>
-              <p className="description">
+              <h2 className="title">For Orders call on : 9741529634</h2>
+              <h3 className="title">By Rachita Chamaria</h3>
+              {/* <p className="description">
                 We're going to launch{" "}
                 <a className="text-danger" href="#pablo" disabled>
                   Paper Kit PRO React in a few weeks
                 </a>
                 . It will have a huge number of components, sections and example
                 pages.
-              </p>
+              </p> */}
             </Col>
-            <Col className="ml-auto mr-auto" sm="5">
+            {/* <Col className="ml-auto mr-auto" sm="5">
               <Button className="btn-round" color="info" href="#pablo" disabled>
                 <i aria-hidden={true} className="nc-icon nc-spaceship" />{" "}
                 Upgrade to PRO
@@ -120,7 +106,7 @@ function SectionDownload() {
               <UncontrolledTooltip delay={0} target="tooltip864353654">
                 Star on Github
               </UncontrolledTooltip>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>

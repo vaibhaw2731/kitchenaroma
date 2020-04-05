@@ -25,20 +25,23 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
-// index sections
-import SectionButtons from "views/index-sections/SectionButtons.js";
-import SectionNavbars from "views/index-sections/SectionNavbars.js";
-import SectionNavigation from "views/index-sections/SectionNavigation.js";
-import SectionProgress from "views/index-sections/SectionProgress.js";
-import SectionNotifications from "views/index-sections/SectionNotifications.js";
-import SectionTypography from "views/index-sections/SectionTypography.js";
-import SectionJavaScript from "views/index-sections/SectionJavaScript.js";
-import SectionCarousel from "views/index-sections/SectionCarousel.js";
-import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
-import SectionDark from "views/index-sections/SectionDark.js";
-import SectionLogin from "views/index-sections/SectionLogin.js";
-import SectionExamples from "views/index-sections/SectionExamples.js";
+// // index sections
+// import SectionButtons from "views/index-sections/SectionButtons.js";
+// import SectionNavbars from "views/index-sections/SectionNavbars.js";
+// import SectionNavigation from "views/index-sections/SectionNavigation.js";
+// import SectionProgress from "views/index-sections/SectionProgress.js";
+// import SectionNotifications from "views/index-sections/SectionNotifications.js";
+// import SectionTypography from "views/index-sections/SectionTypography.js";
+// import SectionJavaScript from "views/index-sections/SectionJavaScript.js";
+// import SectionCarousel from "views/index-sections/SectionCarousel.js";
+// import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
+// import SectionDark from "views/index-sections/SectionDark.js";
+// import SectionLogin from "views/index-sections/SectionLogin.js";
+// import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
+import Cakes from "views/index-sections/Cakes.js";
+import CupCakes from "views/index-sections/Cupcakes.js";
+import Cookies from "views/index-sections/Cookies.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -53,7 +56,13 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
-        <SectionButtons />
+        <Cakes />
+        <CupCakes />
+        <Cookies />
+        <SectionDownload />
+        <DemoFooter />
+        {/* <SectionButtons /> */}
+        {/* <SectionButtons />
         <SectionNavbars />
         <SectionNavigation />
         <SectionProgress />
@@ -66,7 +75,7 @@ function Index() {
         <SectionLogin />
         <SectionExamples />
         <SectionDownload />
-        <DemoFooter />
+        <DemoFooter /> */}
       </div>
     </>
   );
